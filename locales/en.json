@@ -172,7 +172,7 @@
 		"description": "shows you in how many servers the bot is in"
 	},
 	"save": {
-		"description": "sends you the song name in your direct messages",
+		"description": "sends you the song name and link in your direct messages",
 		"embedTitle": "song saved",
 		"errorNotQueue": "There is nothing playing.",
 		"errorDms": "Cannot send messages to <@{author}>"
