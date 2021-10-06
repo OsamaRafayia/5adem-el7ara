@@ -1,4 +1,4 @@
-/*const { splitBar } = require("string-progressbar");
+const { splitBar } = require("string-progressbar");
 const { MessageEmbed } = require("discord.js");
 const i18n = require("../util/i18n");
 
@@ -20,4 +20,4 @@ execute(message) {
 
     return message.author.send(save);
 }
-};*/
+};
