@@ -175,6 +175,7 @@
 		"description": "sends you the song name and link in your direct messages",
 		"embedTitle": "song saved",
 		"errorNotQueue": "There is nothing playing.",
-		"errorDms": "Cannot send messages to <@{author}>"
+		"errorDms": "Cannot send messages to <@{author}>",
+		"errorDmsGif": "https://tenor.com/view/enable-dms-tutorial-direct-messages-gif-17815484"
 	}
 }
