@@ -175,6 +175,7 @@
 		"description": "يرسل لك اسم الأغنية في رسائلك المباشرة",
 		"embedTitle": "تم حفظ الاغنية",
 		"errorNotQueue": "لا توجد أغنية قيد التشغيل حاليا",
-		"errorDms": "لا يمكنني ارسال رسالة الي <@{author}>"
+		"errorDms": "لا يمكنني ارسال رسالة الي <@{author}>",
+		"errorDmsGif": "https://tenor.com/view/enable-dms-tutorial-direct-messages-gif-17815484"
 	}
 }
