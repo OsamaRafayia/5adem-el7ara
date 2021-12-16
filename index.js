@@ -4,7 +4,6 @@
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX1, PREFIX2 } = require("./util/Util");
 const i18n = require("./util/i18n");
 
 const client = new Client({
@@ -14,8 +13,7 @@ const client = new Client({
 
 client.login(process.env.TOKEN);
 client.commands = new Collection();
-if (process.env.TOKEN == "ODkwMzgyMzQxNjkwNzUzMDU0.YUu_LA.50ZjKXPMU4M6kPwcYm84IPuFE20") client.prefix = PREFIX2
-else client.prefix = PREFIX1;
+client.prefix = process.env.PREFIX;
 client.queue = new Map();
 const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
