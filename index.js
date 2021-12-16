@@ -14,7 +14,7 @@ const client = new Client({
 
 client.login(process.env.TOKEN);
 client.commands = new Collection();
-if (client.user.id === "890382341690753054") client.prefix = PREFIX2
+if (process.env.TOKEN == "ODkwMzgyMzQxNjkwNzUzMDU0.YUu_LA.50ZjKXPMU4M6kPwcYm84IPuFE20") client.prefix = PREFIX2
 else client.prefix = PREFIX1;
 client.queue = new Map();
 const cooldowns = new Collection();
