@@ -47,7 +47,7 @@
 	},
 	"ping": {
 		"description": "Show the bot's average ping",
-		"result": "📈 Average ping to API: {ping} ms"
+		"result": "🏓 Pong! \n - Latency is {number} ms"
 	},
 	"play": {
 		"description": "Plays audio from YouTube or Soundcloud",
