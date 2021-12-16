@@ -4,9 +4,10 @@ module.exports = {
   name: "ping",
   cooldown: 10,
   description: i18n.__("ping.description"),
-  execute(message) {
-    message
-      .reply(i18n.__mf("ping.result", { ping: Math.round(message.client.ws.ping) }))
-      .catch(console.error);
+  async execute(message) {
+    const msg = await message.channel.send(`🏓 Pinging....`);
+    msg.edit(i18n.__mf("ping.result", {number:Math.floor(msg.createdTimestamp - message.createdTimestamp)}));
   }
 };
+
+
